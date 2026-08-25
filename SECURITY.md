@@ -2,8 +2,8 @@
 
 Security fixes are provided for the current CRG Systems 1.0 release line.
 
-Report suspected vulnerabilities privately through the semiAIfoundry contact
-form: https://semiaifoundry.com/contact/
+Report suspected vulnerabilities privately to Semi AI Foundry, LLC through the
+semiAIfoundry contact form: https://semiaifoundry.com/contact/
 
 Use the subject **CRG Systems security report** and include the affected
 version, impact, reproduction steps, and a safe return contact. Do not include

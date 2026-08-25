@@ -2,9 +2,13 @@
   "product": "CRG Systems",
   "version": "1.0.0",
   "release_date": "2026-08-25",
-  "requires_python": ">=3.10",
+  "requires_python": ">=3.10,<3.15",
   "validated_python": "3.12",
   "javascript_verifier_requires_node": ">=22",
   "license": "LicenseRef-CRG-Research-Noncommercial-1.0",
-  "commercial_license_required": true
+  "licensor": "Semi AI Foundry, LLC",
+  "copyright_owner": "Semi AI Foundry, LLC",
+  "attribution_group": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC",
+  "research_and_noncommercial_use_permitted_with_attribution": true,
+  "commercial_use_requires_separate_license": true
 }

@@ -5,8 +5,13 @@ together with the CRG Attribution Condition at the end of this file. Both are
 part of the license terms.
 
 Research and noncommercial use do not require a separate commercial license.
-Commercial use requires a separate written commercial license from
-semiAIfoundry Research.
+Commercial use requires a separate written commercial license from Semi AI
+Foundry, LLC. CRG Systems is developed by semiAIfoundry Research, a research
+group within Semi AI Foundry, LLC.
+
+The licensor and copyright owner for CRG Systems is Semi AI Foundry, LLC.
+References to semiAIfoundry Research identify the internal research group that
+develops the product; they do not identify a separate legal entity or licensor.
 
 ## Base terms: PolyForm Noncommercial License 1.0.0
 
@@ -131,10 +136,13 @@ As a condition of every permission granted for CRG Systems:
    in `NOTICE`.
 2. Every public research paper, report, presentation, benchmark, dataset, or
    software release that materially uses CRG Systems must identify
-   **CRG Systems 1.0.0, semiAIfoundry Research** and include
+   **CRG Systems 1.0.0, developed by semiAIfoundry Research, a research group
+   within Semi AI Foundry, LLC** and include
    <https://semiaifoundry.com/> or the release repository URL.
-3. Attribution must not suggest endorsement by semiAIfoundry Research.
+3. Attribution must not suggest endorsement by Semi AI Foundry, LLC or
+   semiAIfoundry Research.
 
 No permission is granted for commercial use. A separate written commercial
-license is required before any commercial use begins. See
+license from Semi AI Foundry, LLC is required before any commercial use
+begins. See
 `COMMERCIAL_LICENSE.md`.

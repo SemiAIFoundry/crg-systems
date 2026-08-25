@@ -6,6 +6,9 @@ verification, and controlled physical feedback. This distribution includes
 the Python application, CRG Studio browser interface, command-line tools,
 secured API server, and an independent Node.js verifier.
 
+CRG Systems is developed by semiAIfoundry Research, a research group within
+Semi AI Foundry, LLC.
+
 ## License
 
 Research, education, and other noncommercial use are permitted with the
@@ -13,9 +16,9 @@ attribution required by `LICENSE.md`. No separate commercial license is needed
 for those uses.
 
 **Any commercial use requires a separate written commercial license from
-semiAIfoundry Research.** This includes production or staging deployment,
-commercial products or services, paid consulting, customer deliverables, and
-revenue-supporting internal use.
+Semi AI Foundry, LLC.** This includes production or staging deployment for
+commercial activity, commercial products or services, paid consulting,
+customer deliverables, and revenue-supporting internal use.
 
 Read `LICENSE.md` and `COMMERCIAL_LICENSE.md` before installing or using the
 software. Commercial licensing requests:
@@ -23,7 +26,10 @@ https://semiaifoundry.com/contact/
 
 ## Requirements
 
-- Python 3.10 or newer; Python 3.12 is the validated release runtime.
+- 64-bit CPython 3.10 through 3.14; CPython 3.12 is the validated release
+  runtime.
+- Linux with glibc 2.28+ or musl 1.2+ on x86-64 or AArch64; macOS 12+ on
+  Apple silicon; or Windows on x86-64.
 - Internet access during installation for pinned third-party dependencies.
 - Node.js 22 or newer only for the independent JavaScript verifier.
 
@@ -34,14 +40,16 @@ From this directory:
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
-python -m pip install --only-binary=:all: \
-  --constraint constraints.txt --find-links wheels \
-  crg-systems==1.0.0
+python -m pip --isolated install --index-url https://pypi.org/simple \
+  --require-hashes -r requirements.lock
+python -m pip --isolated install --no-index --only-binary=:all: \
+  --find-links wheels crg-systems==1.0.0
+python -m pip check
 ```
 
-The `wheels/` directory contains all CRG components. `pip` obtains only the
-pinned third-party runtime dependencies from the configured Python package
-index.
+The first command installs only hash-locked third-party wheels from the
+configured Python package index. The second command disables package indexes
+and installs CRG Systems exclusively from the included `wheels/` directory.
 
 Third-party dependencies remain under their respective licenses, recorded in
 `SBOM.cdx.json`. Those terms do not grant commercial rights in CRG Systems.
