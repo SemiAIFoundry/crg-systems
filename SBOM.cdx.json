@@ -1,0 +1,1298 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:npm/crg-verifier-js@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8437ecb869c69ade0e53276798b4590a1776af7b87256e1d46476f3c78f8deab"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-verifier-js",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "crg-verifier-js-1.0.1.tgz"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:npm/crg-verifier-js@1.0.1",
+      "scope": "optional",
+      "type": "application",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/boto3@1.43.73",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "boto3",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/boto3@1.43.73",
+      "scope": "required",
+      "type": "library",
+      "version": "1.43.73"
+    },
+    {
+      "bom-ref": "pkg:pypi/botocore@1.43.73",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "botocore",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/botocore@1.43.73",
+      "scope": "required",
+      "type": "library",
+      "version": "1.43.73"
+    },
+    {
+      "bom-ref": "pkg:pypi/cffi@2.0.0",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "cffi",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/cffi@2.0.0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-certify@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "34b1f61aa4298e66a05dd2e8273f7b654be1053f611c3d155bb42c40cc72a569"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-certify",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_certify-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-certify@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-change@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "92313de74f71754565dd9295dba43820bfb9897d629f84ab053daf88880052e7"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-change",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_change-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-change@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-cli@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4c0f3af9fa64b0cdebaeffe34c144acf0c3f2962ea508dff37b370aaad25c74a"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-cli",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_cli-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-cli@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-conformance@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fbb93f11a83d1067d749b2dad9d3cf829295c2968969f0aaea61d5908be04a95"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-conformance",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_conformance-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-conformance@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-convert@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d7d00444a2ae9500ad6d13e836ed85cf47152df5a146c75dedd59386cd3ebe11"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-convert",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_convert-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-convert@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-feedback@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3c6fffd014c4b194fc3be64faa955c13a86fee72f0b38fa23240052217e87c2"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-feedback",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_feedback-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-feedback@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-generate@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1d74533f3578484ad53d756b99e9817d30908492f722ef7a23a99c57f177d14e"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-generate",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_generate-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-generate@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-geometry@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "80e269f3c2557b609491fbdf5d71ff6fb613c5a5f90894ad649e70677b6c1a67"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-geometry",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_geometry-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-geometry@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-io@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2e66b1d6839783a64d54350bdbff4a1c91292166f2216b42f971613273d7daa"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-io",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_io-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-io@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-model@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "30fae1d8364701026a3eb4013624e4e977d10a6f1e2aecaba6d2e76b4a85f661"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-model",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_model-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-model@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-security@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "738a003864765319bc916d51566b0e8518866227d14e1fec35aa9902697e0f98"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-security",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_security-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-security@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-server@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e90b4218370e3f14b041266f9d55dfed0c7d21fcf502bddc4e96b269a34e3cf5"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-server",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_server-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-server@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-studio@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e92896bdfe4e45aafa0682dd69a0d6a08dce4028a16269fb44d5f546566611f3"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-studio",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_studio-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-studio@1.0.1",
+      "scope": "required",
+      "type": "application",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/crg-verify@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5f9674a50e1eaab8c8710020ad697c4814d5f2c03e8d66c92a2621298a19c9bb"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-verify",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_verify-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-verify@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/cryptography@50.0.0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "name": "cryptography",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/cryptography@50.0.0",
+      "scope": "required",
+      "type": "library",
+      "version": "50.0.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/etq-evidence@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "68c77ff30604c525316dc0671bb78ee9d22bd66a6b1fd0036a71b81d5d137a02"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "etq-evidence",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_evidence-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/etq-evidence@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/etq-federation@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "63b54f13ce6ddd99a9a3f7c24c5eed7675f21042c90b1e5995920d414427e87f"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "etq-federation",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_federation-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/etq-federation@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/etq-qualify@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3a6e8611a600b184da7256414bf71a6c2b828e79c4c1ce0aecbd1a4d17f1b21"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "etq-qualify",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_qualify-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/etq-qualify@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:pypi/jmespath@1.0.1",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jmespath",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/jmespath@1.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "1.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/psycopg-binary@3.3.4",
+      "licenses": [
+        {
+          "expression": "LGPL-3.0-only"
+        }
+      ],
+      "name": "psycopg-binary",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/psycopg-binary@3.3.4",
+      "scope": "required",
+      "type": "library",
+      "version": "3.3.4"
+    },
+    {
+      "bom-ref": "pkg:pypi/psycopg@3.3.4",
+      "licenses": [
+        {
+          "expression": "LGPL-3.0-only"
+        }
+      ],
+      "name": "psycopg",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/psycopg@3.3.4",
+      "scope": "required",
+      "type": "library",
+      "version": "3.3.4"
+    },
+    {
+      "bom-ref": "pkg:pypi/pyarrow@25.0.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "pyarrow",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/pyarrow@25.0.1",
+      "scope": "required",
+      "type": "library",
+      "version": "25.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/pycparser@3.0",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "pycparser",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/pycparser@3.0",
+      "scope": "required",
+      "type": "library",
+      "version": "3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "name": "python-dateutil",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.9.0.post0"
+    },
+    {
+      "bom-ref": "pkg:pypi/s3transfer@0.19.0",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "s3transfer",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/s3transfer@0.19.0",
+      "scope": "required",
+      "type": "library",
+      "version": "0.19.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "six",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/six@1.17.0",
+      "scope": "required",
+      "type": "library",
+      "version": "1.17.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0",
+      "licenses": [
+        {
+          "expression": "PSF-2.0"
+        }
+      ],
+      "name": "typing-extensions",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "scope": "required",
+      "type": "library",
+      "version": "4.15.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/tzdata@2026.3",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "tzdata",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index on Windows"
+        }
+      ],
+      "purl": "pkg:pypi/tzdata@2026.3",
+      "scope": "required",
+      "type": "library",
+      "version": "2026.3"
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.7.0",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "urllib3",
+      "properties": [
+        {
+          "name": "crg:distribution",
+          "value": "resolved from configured Python package index"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.7.0",
+      "scope": "required",
+      "type": "library",
+      "version": "2.7.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "pkg:npm/crg-verifier-js@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/botocore@1.43.73",
+        "pkg:pypi/jmespath@1.0.1",
+        "pkg:pypi/s3transfer@0.19.0"
+      ],
+      "ref": "pkg:pypi/boto3@1.43.73"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/jmespath@1.0.1",
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/urllib3@2.7.0"
+      ],
+      "ref": "pkg:pypi/botocore@1.43.73"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/pycparser@3.0"
+      ],
+      "ref": "pkg:pypi/cffi@2.0.0"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-certify@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-change@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-certify@1.0.1",
+        "pkg:pypi/crg-change@1.0.1",
+        "pkg:pypi/crg-convert@1.0.1",
+        "pkg:pypi/crg-feedback@1.0.1",
+        "pkg:pypi/crg-generate@1.0.1",
+        "pkg:pypi/crg-geometry@1.0.1",
+        "pkg:pypi/crg-io@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/crg-verify@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1",
+        "pkg:pypi/etq-qualify@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-cli@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-certify@1.0.1",
+        "pkg:pypi/crg-change@1.0.1",
+        "pkg:pypi/crg-convert@1.0.1",
+        "pkg:pypi/crg-feedback@1.0.1",
+        "pkg:pypi/crg-generate@1.0.1",
+        "pkg:pypi/crg-geometry@1.0.1",
+        "pkg:pypi/crg-io@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/crg-server@1.0.1",
+        "pkg:pypi/crg-verify@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1",
+        "pkg:pypi/etq-federation@1.0.1",
+        "pkg:pypi/etq-qualify@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-conformance@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-convert@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-convert@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-feedback@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-generate@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-geometry@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/pyarrow@25.0.1"
+      ],
+      "ref": "pkg:pypi/crg-io@1.0.1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/crg-model@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/cryptography@50.0.0"
+      ],
+      "ref": "pkg:pypi/crg-security@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/boto3@1.43.73",
+        "pkg:pypi/crg-certify@1.0.1",
+        "pkg:pypi/crg-change@1.0.1",
+        "pkg:pypi/crg-cli@1.0.1",
+        "pkg:pypi/crg-convert@1.0.1",
+        "pkg:pypi/crg-feedback@1.0.1",
+        "pkg:pypi/crg-generate@1.0.1",
+        "pkg:pypi/crg-geometry@1.0.1",
+        "pkg:pypi/crg-io@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/crg-security@1.0.1",
+        "pkg:pypi/crg-verify@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1",
+        "pkg:pypi/etq-federation@1.0.1",
+        "pkg:pypi/etq-qualify@1.0.1",
+        "pkg:pypi/psycopg@3.3.4"
+      ],
+      "ref": "pkg:pypi/crg-server@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-server@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-studio@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-certify@1.0.1",
+        "pkg:pypi/crg-change@1.0.1",
+        "pkg:pypi/crg-cli@1.0.1",
+        "pkg:pypi/crg-conformance@1.0.1",
+        "pkg:pypi/crg-convert@1.0.1",
+        "pkg:pypi/crg-feedback@1.0.1",
+        "pkg:pypi/crg-generate@1.0.1",
+        "pkg:pypi/crg-geometry@1.0.1",
+        "pkg:pypi/crg-io@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/crg-security@1.0.1",
+        "pkg:pypi/crg-server@1.0.1",
+        "pkg:pypi/crg-studio@1.0.1",
+        "pkg:pypi/crg-verify@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1",
+        "pkg:pypi/etq-federation@1.0.1",
+        "pkg:pypi/etq-qualify@1.0.1"
+      ],
+      "ref": "pkg:pypi/crg-systems@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/cryptography@50.0.0"
+      ],
+      "ref": "pkg:pypi/crg-verify@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/cffi@2.0.0"
+      ],
+      "ref": "pkg:pypi/cryptography@50.0.0"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1"
+      ],
+      "ref": "pkg:pypi/etq-evidence@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1"
+      ],
+      "ref": "pkg:pypi/etq-federation@1.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/crg-certify@1.0.1",
+        "pkg:pypi/crg-model@1.0.1",
+        "pkg:pypi/etq-evidence@1.0.1"
+      ],
+      "ref": "pkg:pypi/etq-qualify@1.0.1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/jmespath@1.0.1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/psycopg-binary@3.3.4"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/psycopg-binary@3.3.4",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/tzdata@2026.3"
+      ],
+      "ref": "pkg:pypi/psycopg@3.3.4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pyarrow@25.0.1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pycparser@3.0"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/six@1.17.0"
+      ],
+      "ref": "pkg:pypi/python-dateutil@2.9.0.post0"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/botocore@1.43.73"
+      ],
+      "ref": "pkg:pypi/s3transfer@0.19.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/six@1.17.0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/typing-extensions@4.15.0"
+    },
+    {
+      "ref": "pkg:pypi/tzdata@2026.3",
+      "dependsOn": []
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/urllib3@2.7.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:pypi/crg-systems@1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b1b39475eb835b6e090b41ce3dba353efce2cf3f7550dd2fba9a467f7443d198"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-CRG-Research-Noncommercial-1.0"
+        }
+      ],
+      "name": "crg-systems",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_systems-1.0.1-py3-none-any.whl"
+        },
+        {
+          "name": "crg:attribution-group",
+          "value": "semiAIfoundry Research, a research group within Semi AI Foundry, LLC"
+        },
+        {
+          "name": "crg:licensor",
+          "value": "Semi AI Foundry, LLC"
+        }
+      ],
+      "purl": "pkg:pypi/crg-systems@1.0.1",
+      "scope": "required",
+      "type": "application",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Semi AI Foundry, LLC",
+        "url": [
+          "https://semiaifoundry.com/"
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "crg:distribution-profile",
+        "value": "public-runtime"
+      },
+      {
+        "name": "crg:third-party-artifacts-bundled",
+        "value": "false"
+      }
+    ],
+    "timestamp": "2026-08-26T00:00:00Z"
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

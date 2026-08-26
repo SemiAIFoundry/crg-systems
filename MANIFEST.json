@@ -1,0 +1,180 @@
+{
+  "checksum_file_excluded": true,
+  "distribution_profile": "public-runtime",
+  "file_count": 28,
+  "files": [
+    {
+      "mode": "0644",
+      "path": "COMMERCIAL_LICENSE.md",
+      "sha256": "037447f5e6621fdac81a5fa5eb31cbaeba8fe427a736711e123ff2c204fcb062",
+      "size": 1330
+    },
+    {
+      "mode": "0644",
+      "path": "LICENSE.md",
+      "sha256": "69097c8afe093d1fa5205deba9f5b283c84a679ad8782a2f20f336ad5bad167e",
+      "size": 6063
+    },
+    {
+      "mode": "0644",
+      "path": "NOTICE",
+      "sha256": "149f476d5a06f8f4a53cffaa899f67f5699038fd63c59ca9edd0c1a80da35df5",
+      "size": 892
+    },
+    {
+      "mode": "0644",
+      "path": "README.md",
+      "sha256": "5ce8337e883f1549bd57655c8baa82ca1f33d5461db13fad3f73cdea7c79cc4d",
+      "size": 3994
+    },
+    {
+      "mode": "0644",
+      "path": "SBOM.cdx.json",
+      "sha256": "d00d95d236161b8d002049c9e88fa7bb78def6f11fcdeaccb57a337025004875",
+      "size": 32740
+    },
+    {
+      "mode": "0644",
+      "path": "SECURITY.md",
+      "sha256": "c1af5f4552256e3ffd60078f16218f2d83d2cc4a874e4fe2d66b1a51f8d1af3a",
+      "size": 734
+    },
+    {
+      "mode": "0644",
+      "path": "VERSION.json",
+      "sha256": "842246cd4d26501bb2213bf2fddcc916e5a7c9b7d36064c5c25991d216b90941",
+      "size": 556
+    },
+    {
+      "mode": "0644",
+      "path": "config/security.example.json",
+      "sha256": "08ff7ccec324232d010003e92469cd5a0089c1b9fedbba4c82a8ebc8e611a2ed",
+      "size": 1269
+    },
+    {
+      "mode": "0644",
+      "path": "crg-verifier-js-1.0.1.tgz",
+      "sha256": "8437ecb869c69ade0e53276798b4590a1776af7b87256e1d46476f3c78f8deab",
+      "size": 45588
+    },
+    {
+      "mode": "0644",
+      "path": "requirements.lock",
+      "sha256": "a2b2585454d3bc75fbe583abba663992e746de8ac00a12fd0278a7cbfc111036",
+      "size": 20474
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_certify-1.0.1-py3-none-any.whl",
+      "sha256": "34b1f61aa4298e66a05dd2e8273f7b654be1053f611c3d155bb42c40cc72a569",
+      "size": 37938
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_change-1.0.1-py3-none-any.whl",
+      "sha256": "92313de74f71754565dd9295dba43820bfb9897d629f84ab053daf88880052e7",
+      "size": 17889
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_cli-1.0.1-py3-none-any.whl",
+      "sha256": "4c0f3af9fa64b0cdebaeffe34c144acf0c3f2962ea508dff37b370aaad25c74a",
+      "size": 44560
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_conformance-1.0.1-py3-none-any.whl",
+      "sha256": "fbb93f11a83d1067d749b2dad9d3cf829295c2968969f0aaea61d5908be04a95",
+      "size": 137434
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_convert-1.0.1-py3-none-any.whl",
+      "sha256": "d7d00444a2ae9500ad6d13e836ed85cf47152df5a146c75dedd59386cd3ebe11",
+      "size": 31562
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_feedback-1.0.1-py3-none-any.whl",
+      "sha256": "e3c6fffd014c4b194fc3be64faa955c13a86fee72f0b38fa23240052217e87c2",
+      "size": 51376
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_generate-1.0.1-py3-none-any.whl",
+      "sha256": "1d74533f3578484ad53d756b99e9817d30908492f722ef7a23a99c57f177d14e",
+      "size": 168625
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_geometry-1.0.1-py3-none-any.whl",
+      "sha256": "80e269f3c2557b609491fbdf5d71ff6fb613c5a5f90894ad649e70677b6c1a67",
+      "size": 18430
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_io-1.0.1-py3-none-any.whl",
+      "sha256": "e2e66b1d6839783a64d54350bdbff4a1c91292166f2216b42f971613273d7daa",
+      "size": 50715
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_model-1.0.1-py3-none-any.whl",
+      "sha256": "30fae1d8364701026a3eb4013624e4e977d10a6f1e2aecaba6d2e76b4a85f661",
+      "size": 115853
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_security-1.0.1-py3-none-any.whl",
+      "sha256": "738a003864765319bc916d51566b0e8518866227d14e1fec35aa9902697e0f98",
+      "size": 109773
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_server-1.0.1-py3-none-any.whl",
+      "sha256": "e90b4218370e3f14b041266f9d55dfed0c7d21fcf502bddc4e96b269a34e3cf5",
+      "size": 239851
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_studio-1.0.1-py3-none-any.whl",
+      "sha256": "e92896bdfe4e45aafa0682dd69a0d6a08dce4028a16269fb44d5f546566611f3",
+      "size": 119178
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_systems-1.0.1-py3-none-any.whl",
+      "sha256": "b1b39475eb835b6e090b41ce3dba353efce2cf3f7550dd2fba9a467f7443d198",
+      "size": 7086
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/crg_verify-1.0.1-py3-none-any.whl",
+      "sha256": "5f9674a50e1eaab8c8710020ad697c4814d5f2c03e8d66c92a2621298a19c9bb",
+      "size": 62899
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/etq_evidence-1.0.1-py3-none-any.whl",
+      "sha256": "68c77ff30604c525316dc0671bb78ee9d22bd66a6b1fd0036a71b81d5d137a02",
+      "size": 48512
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/etq_federation-1.0.1-py3-none-any.whl",
+      "sha256": "63b54f13ce6ddd99a9a3f7c24c5eed7675f21042c90b1e5995920d414427e87f",
+      "size": 41233
+    },
+    {
+      "mode": "0644",
+      "path": "wheels/etq_qualify-1.0.1-py3-none-any.whl",
+      "sha256": "b3a6e8611a600b184da7256414bf71a6c2b828e79c4c1ce0aecbd1a4d17f1b21",
+      "size": 46125
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "product": "CRG Systems",
+  "release_date": "2026-08-26",
+  "self_excluded": true,
+  "version": "1.0.1"
+}
