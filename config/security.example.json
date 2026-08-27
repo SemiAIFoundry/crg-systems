@@ -1,5 +1,5 @@
 {
-  "profile" : "authenticated-single-tenant",
+  "profile": "authenticated-single-tenant",
   "tenant_id": "replace-with-tenant-id",
   "pepper_env": "CRG_PASSWORD_PEPPER",
   "accounts": [

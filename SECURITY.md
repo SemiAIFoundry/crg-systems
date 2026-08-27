@@ -1,4 +1,4 @@
-# Security — CRG Systems 1.3.0
+# Security — CRG Systems 1.4.0
 
 Report suspected vulnerabilities privately to Semi AI Foundry, LLC through https://semiaifoundry.com/contact/ using the subject **CRG Systems security report**. Include the affected version, impact, reproduction steps, and a safe return contact. Do not include live customer data, production credentials, private keys, or regulated data.
 

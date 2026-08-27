@@ -1,6 +1,6 @@
 # Commercial licensing required
 
-CRG Systems 1.3.0 permits research and noncommercial use with attribution under
+CRG Systems 1.4.0 permits research and noncommercial use with attribution under
 `LICENSE.md`. No separate commercial license is needed for those permitted
 uses.
 

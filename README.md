@@ -1,4 +1,4 @@
-# CRG Systems 1.3.0
+# CRG Systems 1.4.0
 
 CRG Systems is a standalone product for realization modeling, decision certification, evidence and qualification workflows, change control, portable verification, and controlled physical feedback. This public-runtime distribution includes the Python application, CRG Studio, command-line tools, secured API server, and independent JavaScript verifier.
 
@@ -12,7 +12,7 @@ Research, education, and other noncommercial use are permitted with the attribut
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip --isolated install --require-hashes -r requirements.lock
-python -m pip --isolated install --no-index --only-binary=:all: --find-links wheels crg-systems==1.3.0
+python -m pip --isolated install --no-index --only-binary=:all: --find-links wheels crg-systems==1.4.0
 python -m pip check
 ```
 
@@ -29,7 +29,7 @@ Never expose the insecure-development profile to another host or network. Produc
 ## JavaScript verifier
 
 ```sh
-npm install --global ./crg-verifier-js-1.3.0.tgz
+npm install --global ./crg-verifier-js-1.4.0.tgz
 crg-verify-js --help
 ```
 
