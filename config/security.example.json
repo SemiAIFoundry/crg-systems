@@ -14,11 +14,6 @@
   ],
   "anonymous_operations": ["getOpenApi", "healthLive", "healthReady"],
   "require_declarative_permit": false,
-  "at_rest_encryption": {
-    "profile": "AES-256-GCM",
-    "key_id": "replace-with-key-id",
-    "key_material_env": "CRG_LOCAL_KEK_BASE64"
-  },
   "federation": {
     "trusted_keys": {
       "replace-with-ed25519-key-id": {

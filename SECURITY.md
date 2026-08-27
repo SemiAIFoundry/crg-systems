@@ -1,15 +1,7 @@
-# Security
+# Security — CRG Systems 1.1.0
 
-Security fixes are provided for the current CRG Systems 1.0 release line.
+Report suspected vulnerabilities privately to Semi AI Foundry, LLC through https://semiaifoundry.com/contact/ using the subject **CRG Systems security report**. Include the affected version, impact, reproduction steps, and a safe return contact. Do not include live customer data, production credentials, private keys, or regulated data.
 
-Report suspected vulnerabilities privately to Semi AI Foundry, LLC through the
-semiAIfoundry contact form: https://semiaifoundry.com/contact/
+Network-facing entry points fail closed without authenticated security configuration and TLS. Loopback insecure-development mode is only for isolated local evaluation. Operators remain responsible for certificates, identity-provider trust, storage/KMS policy, key custody, backup separation, audit export, retention, alerting, and infrastructure isolation.
 
-Use the subject **CRG Systems security report** and include the affected
-version, impact, reproduction steps, and a safe return contact. Do not include
-live customer data, production credentials, private keys, or regulated data.
-Please allow coordinated review before public disclosure.
-
-CRG Systems rejects network-facing startup without an authenticated security
-profile and TLS. The loopback-only insecure-development mode is for local
-evaluation and must never be exposed to another host or network.
+This distribution contains no governed release-signing key, production certificate, customer secret, or HSM/KMS custody procedure. `release-manifest.sig` is intentionally absent until an authorized publication authority signs the exact release digest. Allow coordinated review before public disclosure.
