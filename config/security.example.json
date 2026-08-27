@@ -7,13 +7,28 @@
       "account_id": "acct:replace-with-tenant-id:operator",
       "username": "operator",
       "display_name": "CRG Operator",
+      "organization": "replace-with-legal-organization-name",
       "password_env": "CRG_OPERATOR_PASSWORD",
-      "roles": ["Contributor", "Viewer", "Evidence Steward"],
+      "roles": ["Contributor", "Viewer", "Evidence Steward", "Decision Approver"],
+      "case_scope": ["*"]
+    },
+    {
+      "account_id": "acct:replace-with-tenant-id:verifier",
+      "username": "verifier",
+      "display_name": "CRG Independent Verifier",
+      "organization": "replace-with-legal-organization-name",
+      "password_env": "CRG_VERIFIER_PASSWORD",
+      "roles": ["Decision Approver", "Viewer", "Auditor"],
       "case_scope": ["*"]
     }
   ],
   "anonymous_operations": ["getOpenApi", "healthLive", "healthReady"],
   "require_declarative_permit": false,
+  "at_rest_encryption": {
+    "profile": "AES-256-GCM",
+    "key_id": "replace-with-key-id",
+    "key_material_env": "CRG_LOCAL_KEK_BASE64"
+  },
   "federation": {
     "trusted_keys": {
       "replace-with-ed25519-key-id": {
