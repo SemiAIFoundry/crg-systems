@@ -1,7 +1,7 @@
 # CRG Systems 1.x third-party runtime lock.
 # Every accepted wheel for each pinned release is hash-authorized.
-# v1.2 consumes this lock directly; the retired constraints file is not an
-# alternate source of dependency authority.
+# v1.3 consumes this lock directly; constraints.txt is compatibility guidance,
+# never an alternate dependency authority.
 --only-binary=:all:
 
 boto3==1.43.73 \

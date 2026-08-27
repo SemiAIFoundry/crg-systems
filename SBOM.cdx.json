@@ -94,48 +94,6 @@
       "version": "50.0.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:048ff5eef30961cba75ad20effa7711deb689a98df3d7db22e41df709fe1b8d7",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "048ff5eef30961cba75ad20effa7711deb689a98df3d7db22e41df709fe1b8d7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-verifier-js",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "npm/crg-verifier-js-1.2.0.tgz"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "58552"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_NPM_VERIFIER"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:npm/crg-verifier-js@1.2.0",
-      "type": "application",
-      "version": "1.2.0"
-    },
-    {
       "bom-ref": "urn:crg:artifact:068433028e011ccbeab1dd7c46b1090c24e378397693c66e67ca571176498daa",
       "hashes": [
         {
@@ -182,11 +140,11 @@
       "version": "1.43.73"
     },
     {
-      "bom-ref": "urn:crg:artifact:1270a757e0acd3c0e24aada1dd39ba82a87360dfb909d84aa63ffd22c11deaea",
+      "bom-ref": "urn:crg:artifact:072ed9a49b0633f13dedfe3bf63b2f7819d3ee86a410d9b5b984a62dcc5b5c36",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "1270a757e0acd3c0e24aada1dd39ba82a87360dfb909d84aa63ffd22c11deaea"
+          "content": "072ed9a49b0633f13dedfe3bf63b2f7819d3ee86a410d9b5b984a62dcc5b5c36"
         }
       ],
       "licenses": [
@@ -200,11 +158,11 @@
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_studio-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_studio-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "150992"
+          "value": "154681"
         },
         {
           "name": "crg:first-party",
@@ -219,16 +177,16 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-studio@1.2.0",
+      "purl": "pkg:pypi/crg-studio@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
+      "bom-ref": "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44"
+          "content": "42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
         }
       ],
       "licenses": [
@@ -238,15 +196,15 @@
           }
         }
       ],
-      "name": "crg-certify",
+      "name": "crg-model",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_certify-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_model-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "58275"
+          "value": "166092"
         },
         {
           "name": "crg:first-party",
@@ -261,303 +219,9 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-certify@1.2.0",
+      "purl": "pkg:pypi/crg-model@1.3.0",
       "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "etq-federation",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/etq_federation-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "41236"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/etq-federation@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:22c3f129051d5585bb6bc8a6e891df4e48bf460584e5344c825c6743731e6490",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "22c3f129051d5585bb6bc8a6e891df4e48bf460584e5344c825c6743731e6490"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-systems",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_systems-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "7467"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-systems@1.2.0",
-      "type": "application",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-verify",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_verify-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "146353"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-verify@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:350f968b972d91b2aab896e1fad9e2cc31cf1039efbe48fab14cc6af76fe159b",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "350f968b972d91b2aab896e1fad9e2cc31cf1039efbe48fab14cc6af76fe159b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-cli",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_cli-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "82705"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-cli@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:3db23dc9c97697562f6d8c2fb28cf6ad18816ea5b476f5be250d36aa81e7671a",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "3db23dc9c97697562f6d8c2fb28cf6ad18816ea5b476f5be250d36aa81e7671a"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "@semiaifoundry/crg-client",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "sdk-assets/semiaifoundry-crg-client-1.2.0.tgz"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "14703"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "GENERATED_SDK_RELEASE_ASSET"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "false"
-        }
-      ],
-      "purl": "pkg:npm/%40semiaifoundry/crg-client@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "etq-qualify",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/etq_qualify-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "47788"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/etq-qualify@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "etq-evidence",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/etq_evidence-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "48511"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/etq-evidence@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
@@ -606,6 +270,48 @@
       "version": "1.17.0"
     },
     {
+      "bom-ref": "urn:crg:artifact:541daaa91e0bce234f1350afaecc0ccf03410cd27c37af2f3651762ddeecd744",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "541daaa91e0bce234f1350afaecc0ccf03410cd27c37af2f3651762ddeecd744"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-cli",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_cli-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "96981"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-cli@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
       "bom-ref": "urn:crg:artifact:5b54da301c387abe30c5b3a5335652f1ebd73e814c725ba805d27a2d477ce547",
       "hashes": [
         {
@@ -652,11 +358,11 @@
       "version": "1.43.73"
     },
     {
-      "bom-ref": "urn:crg:artifact:61fc569e0b14ac7ddad4346e13a1f1af507766d75a9a6946ec57d06d5d951de3",
+      "bom-ref": "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "61fc569e0b14ac7ddad4346e13a1f1af507766d75a9a6946ec57d06d5d951de3"
+          "content": "5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906"
         }
       ],
       "licenses": [
@@ -666,15 +372,15 @@
           }
         }
       ],
-      "name": "crg-conformance",
+      "name": "crg-certify",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_conformance-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_certify-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "151468"
+          "value": "58187"
         },
         {
           "name": "crg:first-party",
@@ -689,9 +395,9 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-conformance@1.2.0",
+      "purl": "pkg:pypi/crg-certify@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:6402a9d8146cf4b3974ded3fd28a971e83dc6a0333eb7822524a3aa20b546578",
@@ -740,11 +446,11 @@
       "version": "3.3.4"
     },
     {
-      "bom-ref": "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517",
+      "bom-ref": "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517"
+          "content": "6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5"
         }
       ],
       "licenses": [
@@ -754,15 +460,15 @@
           }
         }
       ],
-      "name": "crg-change",
+      "name": "crg-io",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_change-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_io-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "37615"
+          "value": "73451"
         },
         {
           "name": "crg:first-party",
@@ -777,51 +483,9 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-change@1.2.0",
+      "purl": "pkg:pypi/crg-io@1.3.0",
       "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-model",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_model-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "159053"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-model@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:777cc2415536f1debadb5c2ef7779275d0fc0fe0e042411cdd6caebeb2685262",
@@ -870,53 +534,11 @@
       "version": "0.19.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:78b1090d4936bd205ad7ae8155f2e6f8d8ff79143d0a0ac1ee17a4f9a9c61d96",
+      "bom-ref": "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "78b1090d4936bd205ad7ae8155f2e6f8d8ff79143d0a0ac1ee17a4f9a9c61d96"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-security",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_security-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "110292"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-security@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438"
+          "content": "7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792"
         }
       ],
       "licenses": [
@@ -930,11 +552,11 @@
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_convert-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_convert-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "31665"
+          "value": "31672"
         },
         {
           "name": "crg:first-party",
@@ -949,9 +571,51 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-convert@1.2.0",
+      "purl": "pkg:pypi/crg-convert@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "etq-qualify",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_qualify-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "56155"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/etq-qualify@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:8eca2a813c1cb7ad4fb74d368c2ffbbb4789d377ee5bb8df98373c2cc0dee76c",
@@ -1000,11 +664,11 @@
       "version": "2.0.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e",
+      "bom-ref": "urn:crg:artifact:946a4bc2350a9b044dca838c4eb3c4fcf29460ca80f1ba112abcd4319f8354b1",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e"
+          "content": "946a4bc2350a9b044dca838c4eb3c4fcf29460ca80f1ba112abcd4319f8354b1"
         }
       ],
       "licenses": [
@@ -1014,15 +678,15 @@
           }
         }
       ],
-      "name": "crg-feedback",
+      "name": "crg-security",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_feedback-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_security-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "54102"
+          "value": "110392"
         },
         {
           "name": "crg:first-party",
@@ -1037,9 +701,9 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-feedback@1.2.0",
+      "purl": "pkg:pypi/crg-security@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897",
@@ -1088,11 +752,11 @@
       "version": "2.7.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2",
+      "bom-ref": "urn:crg:artifact:a251512b77c3eb32d96316f16708ccf5fd5a11c9bd48c30ee6cd5e0a2e2443f1",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2"
+          "content": "a251512b77c3eb32d96316f16708ccf5fd5a11c9bd48c30ee6cd5e0a2e2443f1"
         }
       ],
       "licenses": [
@@ -1102,15 +766,15 @@
           }
         }
       ],
-      "name": "crg-geometry",
+      "name": "crg-verifier-js",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_geometry-1.2.0-py3-none-any.whl"
+          "value": "npm/crg-verifier-js-1.3.0.tgz"
         },
         {
           "name": "crg:bytes",
-          "value": "29299"
+          "value": "58391"
         },
         {
           "name": "crg:first-party",
@@ -1118,16 +782,16 @@
         },
         {
           "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
+          "value": "EXACT_CI_NPM_VERIFIER"
         },
         {
           "name": "crg:active-in-exact-ci-runtime",
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-geometry@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
+      "purl": "pkg:npm/crg-verifier-js@1.3.0",
+      "type": "application",
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
@@ -1174,6 +838,48 @@
       "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
       "type": "library",
       "version": "2.9.0.post0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-feedback",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_feedback-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "54246"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-feedback@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:b6bbc25ccf05c8fad3b061d9db2ef0909a555171b84b07f29458a447253d679a",
@@ -1268,11 +974,137 @@
       "version": "3.0"
     },
     {
-      "bom-ref": "urn:crg:artifact:c07ccdc2f06956f2d94720af073d978d42bde41f3a9208906bd2a75871f60283",
+      "bom-ref": "urn:crg:artifact:bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "c07ccdc2f06956f2d94720af073d978d42bde41f3a9208906bd2a75871f60283"
+          "content": "bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-server",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_server-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "297494"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-server@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:bfabd6363eeb38480794c9f2609fea7e2eb1b543901a853ecdd44a77a5cf12a6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bfabd6363eeb38480794c9f2609fea7e2eb1b543901a853ecdd44a77a5cf12a6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-conformance",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_conformance-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "151427"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-conformance@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "etq-federation",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_federation-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "41236"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/etq-federation@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:d4d17207bf467097ec2a16cef8b49d3dd62fb0952e54c0c320c660d899384b38",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d4d17207bf467097ec2a16cef8b49d3dd62fb0952e54c0c320c660d899384b38"
         }
       ],
       "licenses": [
@@ -1286,11 +1118,11 @@
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "sdk-assets/crg_systems_client-1.2.0-py3-none-any.whl"
+          "value": "sdk-assets/crg_systems_client-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "18001"
+          "value": "18372"
         },
         {
           "name": "crg:first-party",
@@ -1305,9 +1137,93 @@
           "value": "false"
         }
       ],
-      "purl": "pkg:pypi/crg-systems-client@1.2.0",
+      "purl": "pkg:pypi/crg-systems-client@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-change",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_change-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "41512"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-change@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-verify",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_verify-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "160610"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-verify@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:dc096730c87af6cab1b171c9d532be840741ff5d459015e7f6947bd7d7e54931",
@@ -1360,48 +1276,6 @@
       "version": "2026.3"
     },
     {
-      "bom-ref": "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-io",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_io-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "73582"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-io@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
-    },
-    {
       "bom-ref": "urn:crg:artifact:df961f2e7ae9cf496459259d798652c70625f6c080650d6952f8c04053c58ee9",
       "hashes": [
         {
@@ -1448,11 +1322,11 @@
       "version": "25.0.1"
     },
     {
-      "bom-ref": "urn:crg:artifact:e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b",
+      "bom-ref": "urn:crg:artifact:e31b84e1c6ec190ed34393d0f074c7696777ae5c8337036edfdcbdf8aa543fe3",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b"
+          "content": "e31b84e1c6ec190ed34393d0f074c7696777ae5c8337036edfdcbdf8aa543fe3"
         }
       ],
       "licenses": [
@@ -1462,15 +1336,15 @@
           }
         }
       ],
-      "name": "crg-server",
+      "name": "crg-systems",
       "properties": [
         {
           "name": "crg:artifact",
-          "value": "wheels/crg_server-1.2.0-py3-none-any.whl"
+          "value": "wheels/crg_systems-1.3.0-py3-none-any.whl"
         },
         {
           "name": "crg:bytes",
-          "value": "294119"
+          "value": "7647"
         },
         {
           "name": "crg:first-party",
@@ -1485,9 +1359,177 @@
           "value": "true"
         }
       ],
-      "purl": "pkg:pypi/crg-server@1.2.0",
+      "purl": "pkg:pypi/crg-systems@1.3.0",
+      "type": "application",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-geometry",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_geometry-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "29357"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-geometry@1.3.0",
       "type": "library",
-      "version": "1.2.0"
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "crg-generate",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/crg_generate-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "178893"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/crg-generate@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "etq-evidence",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "wheels/etq_evidence-1.3.0-py3-none-any.whl"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "48514"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "EXACT_CI_RUNTIME_WHEEL"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "true"
+        }
+      ],
+      "purl": "pkg:pypi/etq-evidence@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "urn:crg:artifact:f073fd06890c9e6d87c58855fae7a370f49e8835987a13bfc17facee7c4cd078",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f073fd06890c9e6d87c58855fae7a370f49e8835987a13bfc17facee7c4cd078"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
+          }
+        }
+      ],
+      "name": "@semiaifoundry/crg-client",
+      "properties": [
+        {
+          "name": "crg:artifact",
+          "value": "sdk-assets/semiaifoundry-crg-client-1.3.0.tgz"
+        },
+        {
+          "name": "crg:bytes",
+          "value": "15143"
+        },
+        {
+          "name": "crg:first-party",
+          "value": "true"
+        },
+        {
+          "name": "crg:artifact-role",
+          "value": "GENERATED_SDK_RELEASE_ASSET"
+        },
+        {
+          "name": "crg:active-in-exact-ci-runtime",
+          "value": "false"
+        }
+      ],
+      "purl": "pkg:npm/%40semiaifoundry/crg-client@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
     },
     {
       "bom-ref": "urn:crg:artifact:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548",
@@ -1534,48 +1576,6 @@
       "purl": "pkg:pypi/typing-extensions@4.15.0",
       "type": "library",
       "version": "4.15.0"
-    },
-    {
-      "bom-ref": "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "LicenseRef-CRG-Research-Noncommercial-1.0"
-          }
-        }
-      ],
-      "name": "crg-generate",
-      "properties": [
-        {
-          "name": "crg:artifact",
-          "value": "wheels/crg_generate-1.2.0-py3-none-any.whl"
-        },
-        {
-          "name": "crg:bytes",
-          "value": "179027"
-        },
-        {
-          "name": "crg:first-party",
-          "value": "true"
-        },
-        {
-          "name": "crg:artifact-role",
-          "value": "EXACT_CI_RUNTIME_WHEEL"
-        },
-        {
-          "name": "crg:active-in-exact-ci-runtime",
-          "value": "true"
-        }
-      ],
-      "purl": "pkg:pypi/crg-generate@1.2.0",
-      "type": "library",
-      "version": "1.2.0"
     }
   ],
   "dependencies": [
@@ -1591,10 +1591,6 @@
       "ref": "urn:crg:artifact:031e2d5dd4bb9caa3ca9c82e5a197fd8ae680232cee62603d1a813f3f07e3d03"
     },
     {
-      "dependsOn": [],
-      "ref": "urn:crg:artifact:048ff5eef30961cba75ad20effa7711deb689a98df3d7db22e41df709fe1b8d7"
-    },
-    {
       "dependsOn": [
         "urn:crg:artifact:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980",
         "urn:crg:artifact:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
@@ -1604,86 +1600,33 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b"
+        "urn:crg:artifact:bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e"
       ],
-      "ref": "urn:crg:artifact:1270a757e0acd3c0e24aada1dd39ba82a87360dfb909d84aa63ffd22c11deaea"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
-      ],
-      "ref": "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c"
-      ],
-      "ref": "urn:crg:artifact:22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
-        "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517",
-        "urn:crg:artifact:350f968b972d91b2aab896e1fad9e2cc31cf1039efbe48fab14cc6af76fe159b",
-        "urn:crg:artifact:61fc569e0b14ac7ddad4346e13a1f1af507766d75a9a6946ec57d06d5d951de3",
-        "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-        "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e",
-        "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251",
-        "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2",
-        "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:78b1090d4936bd205ad7ae8155f2e6f8d8ff79143d0a0ac1ee17a4f9a9c61d96",
-        "urn:crg:artifact:e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b",
-        "urn:crg:artifact:1270a757e0acd3c0e24aada1dd39ba82a87360dfb909d84aa63ffd22c11deaea",
-        "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c",
-        "urn:crg:artifact:22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387",
-        "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0"
-      ],
-      "ref": "urn:crg:artifact:22c3f129051d5585bb6bc8a6e891df4e48bf460584e5344c825c6743731e6490"
+      "ref": "urn:crg:artifact:072ed9a49b0633f13dedfe3bf63b2f7819d3ee86a410d9b5b984a62dcc5b5c36"
     },
     {
       "dependsOn": [],
-      "ref": "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
-        "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517",
-        "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-        "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e",
-        "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251",
-        "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2",
-        "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c",
-        "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0"
-      ],
-      "ref": "urn:crg:artifact:350f968b972d91b2aab896e1fad9e2cc31cf1039efbe48fab14cc6af76fe159b"
-    },
-    {
-      "dependsOn": [],
-      "ref": "urn:crg:artifact:3db23dc9c97697562f6d8c2fb28cf6ad18816ea5b476f5be250d36aa81e7671a"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c"
-      ],
-      "ref": "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
-      ],
-      "ref": "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c"
+      "ref": "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
     },
     {
       "dependsOn": [],
       "ref": "urn:crg:artifact:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
+        "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a",
+        "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
+        "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d",
+        "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9",
+        "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c",
+        "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422",
+        "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f"
+      ],
+      "ref": "urn:crg:artifact:541daaa91e0bce234f1350afaecc0ccf03410cd27c37af2f3651762ddeecd744"
     },
     {
       "dependsOn": [
@@ -1695,21 +1638,9 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
-        "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517",
-        "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-        "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e",
-        "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251",
-        "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2",
-        "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b",
-        "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c",
-        "urn:crg:artifact:22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387",
-        "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0"
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
       ],
-      "ref": "urn:crg:artifact:61fc569e0b14ac7ddad4346e13a1f1af507766d75a9a6946ec57d06d5d951de3"
+      "ref": "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906"
     },
     {
       "dependsOn": [],
@@ -1717,13 +1648,10 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:df961f2e7ae9cf496459259d798652c70625f6c080650d6952f8c04053c58ee9"
       ],
-      "ref": "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517"
-    },
-    {
-      "dependsOn": [],
-      "ref": "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
+      "ref": "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5"
     },
     {
       "dependsOn": [
@@ -1733,16 +1661,17 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:031e2d5dd4bb9caa3ca9c82e5a197fd8ae680232cee62603d1a813f3f07e3d03"
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
       ],
-      "ref": "urn:crg:artifact:78b1090d4936bd205ad7ae8155f2e6f8d8ff79143d0a0ac1ee17a4f9a9c61d96"
+      "ref": "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792"
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
+        "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422"
       ],
-      "ref": "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438"
+      "ref": "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f"
     },
     {
       "dependsOn": [
@@ -1752,27 +1681,32 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c"
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:031e2d5dd4bb9caa3ca9c82e5a197fd8ae680232cee62603d1a813f3f07e3d03"
       ],
-      "ref": "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e"
+      "ref": "urn:crg:artifact:946a4bc2350a9b044dca838c4eb3c4fcf29460ca80f1ba112abcd4319f8354b1"
     },
     {
       "dependsOn": [],
       "ref": "urn:crg:artifact:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897"
     },
     {
-      "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
-      ],
-      "ref": "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2"
+      "dependsOn": [],
+      "ref": "urn:crg:artifact:a251512b77c3eb32d96316f16708ccf5fd5a11c9bd48c30ee6cd5e0a2e2443f1"
     },
     {
       "dependsOn": [
         "urn:crg:artifact:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
       ],
       "ref": "urn:crg:artifact:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422"
+      ],
+      "ref": "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d"
     },
     {
       "dependsOn": [
@@ -1787,19 +1721,68 @@
       "ref": "urn:crg:artifact:b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
     },
     {
+      "dependsOn": [
+        "urn:crg:artifact:5b54da301c387abe30c5b3a5335652f1ebd73e814c725ba805d27a2d477ce547",
+        "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
+        "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a",
+        "urn:crg:artifact:541daaa91e0bce234f1350afaecc0ccf03410cd27c37af2f3651762ddeecd744",
+        "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
+        "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d",
+        "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9",
+        "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c",
+        "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:946a4bc2350a9b044dca838c4eb3c4fcf29460ca80f1ba112abcd4319f8354b1",
+        "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422",
+        "urn:crg:artifact:cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512",
+        "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f",
+        "urn:crg:artifact:b6bbc25ccf05c8fad3b061d9db2ef0909a555171b84b07f29458a447253d679a"
+      ],
+      "ref": "urn:crg:artifact:bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
+        "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a",
+        "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
+        "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d",
+        "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9",
+        "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c",
+        "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e",
+        "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422",
+        "urn:crg:artifact:cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512",
+        "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f"
+      ],
+      "ref": "urn:crg:artifact:bfabd6363eeb38480794c9f2609fea7e2eb1b543901a853ecdd44a77a5cf12a6"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422"
+      ],
+      "ref": "urn:crg:artifact:cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512"
+    },
+    {
       "dependsOn": [],
-      "ref": "urn:crg:artifact:c07ccdc2f06956f2d94720af073d978d42bde41f3a9208906bd2a75871f60283"
+      "ref": "urn:crg:artifact:d4d17207bf467097ec2a16cef8b49d3dd62fb0952e54c0c320c660d899384b38"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
+      ],
+      "ref": "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a"
+    },
+    {
+      "dependsOn": [],
+      "ref": "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce"
     },
     {
       "dependsOn": [],
       "ref": "urn:crg:artifact:dc096730c87af6cab1b171c9d532be840741ff5d459015e7f6947bd7d7e54931"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:df961f2e7ae9cf496459259d798652c70625f6c080650d6952f8c04053c58ee9"
-      ],
-      "ref": "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d"
     },
     {
       "dependsOn": [],
@@ -1807,24 +1790,47 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:5b54da301c387abe30c5b3a5335652f1ebd73e814c725ba805d27a2d477ce547",
-        "urn:crg:artifact:127b85f0f279ab8bb301847ca665abc2e6fd4c2d06c5fac41b37b0aae9912a44",
-        "urn:crg:artifact:6fc8860e5ec36ff3fac2cafe131fbc26bf1a42b8b5155ec6bd33d9d27dd3f517",
-        "urn:crg:artifact:350f968b972d91b2aab896e1fad9e2cc31cf1039efbe48fab14cc6af76fe159b",
-        "urn:crg:artifact:83c80a3ade3a577afd21a75f9eac988639d65d5f7502fbad4a44603ffdcd1438",
-        "urn:crg:artifact:982e65107f6007b61dfb3b30084e3e9d5dcbdf9628dc26e2dcef4f408a62d97e",
-        "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251",
-        "urn:crg:artifact:a048871dbfc85ef674e2660acc3fcd1564e474a5395399b86fed96281c934ee2",
-        "urn:crg:artifact:df2d0c03bbec515e92dbbb103c36281b3cb0795211f06014c30e101cadf8986d",
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c",
-        "urn:crg:artifact:78b1090d4936bd205ad7ae8155f2e6f8d8ff79143d0a0ac1ee17a4f9a9c61d96",
-        "urn:crg:artifact:32f0506ba50179f0b6ded1020d35d16c5bd923c9202a86554035ec5b8ab0fcf4",
-        "urn:crg:artifact:45136e389004e2ec1b6424f01dd5aea8bfa55a3e83c883bd5c127b67030ec99c",
-        "urn:crg:artifact:22283011c11e83003503f2414ecb1d65504aca0fee53d77fe60eb79fc1f87387",
-        "urn:crg:artifact:4194cd39c71c0e62df9e2aaf17b00b49f05ff5a1524bf14f3648c909228d21b0",
-        "urn:crg:artifact:b6bbc25ccf05c8fad3b061d9db2ef0909a555171b84b07f29458a447253d679a"
+        "urn:crg:artifact:5ebeef227be67f15c055fc864f2e7a18040ad6ce6bc26323f3247a287b363906",
+        "urn:crg:artifact:d7c3834e183fbcfb782ce58b5216f89c42f256093fad400ba14edf047addaf7a",
+        "urn:crg:artifact:541daaa91e0bce234f1350afaecc0ccf03410cd27c37af2f3651762ddeecd744",
+        "urn:crg:artifact:bfabd6363eeb38480794c9f2609fea7e2eb1b543901a853ecdd44a77a5cf12a6",
+        "urn:crg:artifact:7c76eac96b22e07cd956a066542a572a309036f5f5a9976d9f879d1b9a5c5792",
+        "urn:crg:artifact:b18467a4f2fd2ae0373ccab0b2e3990e21b5a6216410fa9827e95a34b6a9874d",
+        "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9",
+        "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c",
+        "urn:crg:artifact:6c0e4fdac514535a32721e451b2d8e8c5a83f855202faf19c6dd71965d93c7f5",
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf",
+        "urn:crg:artifact:946a4bc2350a9b044dca838c4eb3c4fcf29460ca80f1ba112abcd4319f8354b1",
+        "urn:crg:artifact:bb2761cdaf5b4e58efe33623cfb4a60b556223f07cff48df4e28e9291305110e",
+        "urn:crg:artifact:072ed9a49b0633f13dedfe3bf63b2f7819d3ee86a410d9b5b984a62dcc5b5c36",
+        "urn:crg:artifact:d874537993be39147da623b93ddb914c54eaea0a9fa091a75a0ff35ddc2bb9ce",
+        "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422",
+        "urn:crg:artifact:cea855f125f61431ce1f25737aafa2ef79cee98137567e1670a718c5b13b9512",
+        "urn:crg:artifact:8444b164e02c86484bacf1a48bcb10a45948bea4a8792306102b7f556c87e84f"
       ],
-      "ref": "urn:crg:artifact:e7f84e3b3ed7deb00a830050af7a52b17a2805d79e0e39d434b599671696e96b"
+      "ref": "urn:crg:artifact:e31b84e1c6ec190ed34393d0f074c7696777ae5c8337036edfdcbdf8aa543fe3"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
+      ],
+      "ref": "urn:crg:artifact:e57e06e30e9a027f37d6dffccea66b6ab81d7ebb1181b1aca4df1075644b079c"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
+      ],
+      "ref": "urn:crg:artifact:f004e38a8fc09e3cd7b04127bc75c6468fb440f442ab23b872cb467f5e711cd9"
+    },
+    {
+      "dependsOn": [
+        "urn:crg:artifact:42bc17039a154241377bf1e08e59c9bf8c5c0b87de6b9adf6518c402522f46bf"
+      ],
+      "ref": "urn:crg:artifact:f02bce634b8ffd14badd745045fdad23b57586ee8ccebb4d2400cb0670446422"
+    },
+    {
+      "dependsOn": [],
+      "ref": "urn:crg:artifact:f073fd06890c9e6d87c58855fae7a370f49e8835987a13bfc17facee7c4cd078"
     },
     {
       "dependsOn": [],
@@ -1832,23 +1838,17 @@
     },
     {
       "dependsOn": [
-        "urn:crg:artifact:7586b8897e7e76ddbc158c024219b84d960957ad87a915eb7ff9067a9445cb7c"
+        "urn:crg:artifact:e31b84e1c6ec190ed34393d0f074c7696777ae5c8337036edfdcbdf8aa543fe3",
+        "urn:crg:artifact:a251512b77c3eb32d96316f16708ccf5fd5a11c9bd48c30ee6cd5e0a2e2443f1",
+        "urn:crg:artifact:d4d17207bf467097ec2a16cef8b49d3dd62fb0952e54c0c320c660d899384b38",
+        "urn:crg:artifact:f073fd06890c9e6d87c58855fae7a370f49e8835987a13bfc17facee7c4cd078"
       ],
-      "ref": "urn:crg:artifact:ffc01b0c6131ff0554e55fd3d8f863ec38748f6b95830b1f7ab7290e8a721251"
-    },
-    {
-      "dependsOn": [
-        "urn:crg:artifact:22c3f129051d5585bb6bc8a6e891df4e48bf460584e5344c825c6743731e6490",
-        "urn:crg:artifact:048ff5eef30961cba75ad20effa7711deb689a98df3d7db22e41df709fe1b8d7",
-        "urn:crg:artifact:c07ccdc2f06956f2d94720af073d978d42bde41f3a9208906bd2a75871f60283",
-        "urn:crg:artifact:3db23dc9c97697562f6d8c2fb28cf6ad18816ea5b476f5be250d36aa81e7671a"
-      ],
-      "ref": "urn:crg:public-runtime:4ff8c23d205f5c4dcf9bb473eafad7f9d4607dd11df3f6b5d793d0538afde61e"
+      "ref": "urn:crg:public-runtime:6ce5c556232287fbeb21b9a9d1d547c5feb581ae75bf0b1511b647f3dc599079"
     }
   ],
   "metadata": {
     "component": {
-      "bom-ref": "urn:crg:public-runtime:4ff8c23d205f5c4dcf9bb473eafad7f9d4607dd11df3f6b5d793d0538afde61e",
+      "bom-ref": "urn:crg:public-runtime:6ce5c556232287fbeb21b9a9d1d547c5feb581ae75bf0b1511b647f3dc599079",
       "name": "crg-systems",
       "properties": [
         {
@@ -1857,15 +1857,15 @@
         },
         {
           "name": "crg:admitted-artifact-set-sha256",
-          "value": "sha256:4ff8c23d205f5c4dcf9bb473eafad7f9d4607dd11df3f6b5d793d0538afde61e"
+          "value": "sha256:6ce5c556232287fbeb21b9a9d1d547c5feb581ae75bf0b1511b647f3dc599079"
         },
         {
           "name": "crg:inspection-sha256",
-          "value": "sha256:64808f1389699fee96414933a5ba83f53449e7f8d0720e1e4bd9105c363eee53"
+          "value": "sha256:a02d90a53874f2dbfb78ffc5fde2b53da4dfa17edd7e402acd1c87003ce20925"
         },
         {
           "name": "crg:curator-proposal-sha256",
-          "value": "sha256:3722e0e57704492f5b8d2411040b95b351c9389ef05a91fa0a81db9192090515"
+          "value": "sha256:bd8b0ba894aebbfcbbb2a43583a7150fe35f088a4d14af3c0e9c50d5f011ed86"
         },
         {
           "name": "crg:sdk-registry-publication",
@@ -1873,11 +1873,11 @@
         }
       ],
       "type": "application",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     "timestamp": "2026-08-27T00:00:00Z"
   },
-  "serialNumber": "urn:uuid:4ff8c23d-205f-5c4d-cf9b-b473eafad7f9",
+  "serialNumber": "urn:uuid:6ce5c556-2322-87fb-eb21-b9a9d1d547c5",
   "specVersion": "1.6",
   "version": 1
 }
