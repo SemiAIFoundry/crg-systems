@@ -136,7 +136,7 @@ As a condition of every permission granted for CRG Systems:
    in `NOTICE`.
 2. Every public research paper, report, presentation, benchmark, dataset, or
    software release that materially uses CRG Systems must identify
-   **CRG Systems 1.4.0, developed by semiAIfoundry Research, a research group
+   **CRG Systems 1.5.0, developed by semiAIfoundry Research, a research group
    within Semi AI Foundry, LLC** and include
    <https://semiaifoundry.com/> or the release repository URL.
 3. Attribution must not suggest endorsement by Semi AI Foundry, LLC or
